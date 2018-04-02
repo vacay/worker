@@ -1,0 +1,32 @@
+{
+    "name": "vacay-worker",
+    "author": "admin <admin@vacay.io>",
+    "description": "A music blogging platform with discovery services & cloud-based library.",
+    "version": "0.0.1",
+    "private": true,
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/vacay/worker"
+    },
+    "scripts": {},
+    "homepage": "http://vacay.io/",
+    "licenses": "MIT",
+    "dependencies": {
+	"urijs": "1.16.1",
+	"async": "0.2.10",
+	"db": "https://api.github.com/repos/vacay/db/tarball/0.10.10",
+	"fluent-ffmpeg": "2.0.0-rc1",
+	"log": "http://github.com/vacay/log/tarball/0.0.4",
+	"longjohn": "^0.2.9",
+	"musicbrainz": "vacay/node-musicbrainz#a3a0bde",
+	"request": "2.65.0",
+	"requestretry": "^1.5.0",
+	"s3": "4.3.1",
+	"uuid": "1.4.1",
+	"worker-config": "file:config"
+    },
+    "engines": {
+	"node": "0.10.x",
+	"npm": "1.3.x"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "apps": [{
+	"name": "worker",
+	"script": "/home/deploy/worker/current/app.js",
+	"cwd": "/home/deploy/worker/current",
+	"max_memory_restart": "500M",
+	"env": {
+	    "NODE_ENV": "production"
+	}
+    }]
+}
