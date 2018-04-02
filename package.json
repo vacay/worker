@@ -14,7 +14,7 @@
     "dependencies": {
 	"urijs": "1.16.1",
 	"async": "0.2.10",
-	"db": "https://api.github.com/repos/vacay/db/tarball/0.10.10",
+	"db": "https://api.github.com/repos/vacay/db/tarball/0.10.11",
 	"fluent-ffmpeg": "2.0.0-rc1",
 	"log": "http://github.com/vacay/log/tarball/0.0.4",
 	"longjohn": "^0.2.9",
